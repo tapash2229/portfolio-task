@@ -1,0 +1,52 @@
+/* Font style */
+
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.main-title {
+    color: #151414;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.title-para {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.btn-primary {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    background: #F15B22;
+    border: 0;
+    padding: 15px 25px;
+    
+}
+
+
+/* div related style */
+
+.banner-content {
+    margin: 0px 150px;
+    max-width: 800px;
+
+}
+
+.banner {
+    width: 1600px;
+    height: 800px;
+    background-image: url('../images/banner/banner2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: right;
+}
